@@ -18,6 +18,9 @@ public class Game : MonoBehaviour
     [SerializeField] private TMP_Text loseScore;
     [SerializeField] private Slider progressbar;
     [SerializeField] private TMP_Text loseProgress;
+    [SerializeField] private ParticleSystem LeftWin;
+    [SerializeField] private ParticleSystem RightWin;
+
 
     private int currentLevel
     {
@@ -73,12 +76,13 @@ public class Game : MonoBehaviour
         controll.enabled = false;
         wonMenu.SetActive(true);
         loseMenu.SetActive(false);
+        LeftWin.Play();
+        RightWin.Play();
         wonLevelText.SetText("Level " + currentLevel + " completed");
         currentLevel++;
         if (currentScore > maxRecord)
         {
             maxRecord = currentScore;
-            //добавить в меню проигрыша?
         }
     }
     public void SceneReload()

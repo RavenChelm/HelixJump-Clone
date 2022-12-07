@@ -18,11 +18,15 @@ PrefabInstance:
     - target: {fileID: 412613554993632050, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: dff75ebfe1475c34eb6aeaaf8155361f, type: 2}
+      objectReference: {fileID: 2100000, guid: b196042ef64688148bdca51283a501ab, type: 2}
     - target: {fileID: 412613555666734256, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: dff75ebfe1475c34eb6aeaaf8155361f, type: 2}
+      objectReference: {fileID: 2100000, guid: b196042ef64688148bdca51283a501ab, type: 2}
+    - target: {fileID: 412613556332164702, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
     - target: {fileID: 1581547468562708447, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: m_LocalRotation.w
       value: -0.2835028
@@ -119,13 +123,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9188679688037097777, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: GodMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
     - target: {fileID: 9188679688736398303, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: isGood
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9188679688736398303, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: BadMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: b196042ef64688148bdca51283a501ab, type: 2}
     - target: {fileID: 9188679689375581277, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: isGood
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9188679689375581277, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: BadMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: b196042ef64688148bdca51283a501ab, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 051559caf26d6514a878cc654eba7586, type: 3}

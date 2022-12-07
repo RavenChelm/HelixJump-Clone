@@ -9,13 +9,18 @@ public class Player : MonoBehaviour
     public Platform currentPlatform;
     public Game game;
     public bool rage = false;
-    private GameObject particleSystem;
+    private GameObject RageparticleSystem;
+    private GameObject FallparticleSystem;
+
+
     public AudioSource bounceSound;
 
     private void Start()
     {
         Rb = GetComponent<Rigidbody>();
-        particleSystem = transform.GetChild(0).gameObject;
+        RageparticleSystem = transform.GetChild(0).gameObject;
+        FallparticleSystem = transform.GetChild(1).gameObject;
+        FallparticleSystem.SetActive(false);
 
     }
     public void Bounce()
@@ -26,7 +31,9 @@ public class Player : MonoBehaviour
     public void Die()
     {
         Rb.velocity = Vector3.zero;
+        Rb.isKinematic = true;
         game.OnPlayerDied();
+        FallparticleSystem.SetActive(true);
     }
     public void getFinish()
     {
@@ -41,12 +48,12 @@ public class Player : MonoBehaviour
     {
         if (Rb.velocity.y < -30)
         {
-            particleSystem.SetActive(true);
+            RageparticleSystem.SetActive(true);
             rage = true;
         }
         else
         {
-            particleSystem.SetActive(false);
+            RageparticleSystem.SetActive(false);
             rage = false;
         }
     }
