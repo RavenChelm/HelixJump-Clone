@@ -78,7 +78,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 144918466913882354, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1581547468562708447, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: m_LocalRotation.w

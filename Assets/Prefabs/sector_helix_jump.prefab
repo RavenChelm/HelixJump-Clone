@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2916458670908923556}
   m_Layer: 0
   m_Name: sector_helix_jump
-  m_TagString: Untagged
+  m_TagString: Sector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

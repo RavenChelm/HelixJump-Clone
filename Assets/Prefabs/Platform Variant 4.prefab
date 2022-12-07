@@ -27,6 +27,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 412613554993632050, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
+    - target: {fileID: 412613555666734256, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
+    - target: {fileID: 412613556332164702, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
+    - target: {fileID: 1317855186249853853, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
     - target: {fileID: 1581547469225835772, guid: 051559caf26d6514a878cc654eba7586, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.8557519
@@ -91,5 +107,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7526830984292482290, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: GodMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
+    - target: {fileID: 9188679688037097777, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: GodMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
+    - target: {fileID: 9188679688736398303, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: GodMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
+    - target: {fileID: 9188679689375581277, guid: 051559caf26d6514a878cc654eba7586, type: 3}
+      propertyPath: GodMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 210d652668b201b4d8abdb0279432142, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 051559caf26d6514a878cc654eba7586, type: 3}
